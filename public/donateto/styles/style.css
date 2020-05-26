@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+.gadaput__icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem; }
+  .gadaput__icon-link:link, .gadaput__icon-link:visited {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit; }
+  .gadaput__icon-link > * {
+    margin-right: 2rem; }
+  .gadaput__icon-text {
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase; }
+
+.gadaput__welcome {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  display: flex;
+  align-items: center; }
+  .gadaput__welcome > * {
+    margin-right: 1.5rem; }
+  .gadaput__welcome-text {
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 200; }
+  .gadaput__welcome-icon {
+    height: 3rem;
+    width: 3rem; }
+
+body {
+  position: relative;
+  height: 100vh;
+  font-family: 'Anton', sans-serif;
+  background-image: url("images/donate-africa.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  color: #272727; }
+
+.donate-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 40%;
+  width: 45%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+  .donate-container__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .donate-container__heading > * {
+      margin-right: 1rem; }
+    .donate-container__heading-text {
+      text-transform: uppercase;
+      font-size: 5rem;
+      letter-spacing: .2rem;
+      font-weight: 100; }
+    .donate-container__heading-icon {
+      font-size: 3rem; }
+  .donate-container__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .donate-container__box-btn {
+      display: flex; }
+      .donate-container__box-btn:link, .donate-container__box-btn:visited {
+        padding: 2rem 8rem;
+        text-decoration: none;
+        border-radius: 30rem;
+        font-size: 2.2rem;
+        color: #fff; }
+    .donate-container__box-btn--1:link, .donate-container__box-btn--1:visited {
+      background-color: #000; }
+    .donate-container__box-btn--2:link, .donate-container__box-btn--2:visited {
+      color: #000;
+      background-color: #fff;
+      box-shadow: 0px 0px 0.9rem rgba(0, 0, 0, 0.25); }
+    .donate-container__box--icon {
+      height: 3rem;
+      width: 3rem; }
